@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        div {
+            height: 10vh;
+            width: 30%;
+            border: 1px solid black;
+            margin-bottom: 5vh;
+            background-color: rgb(169, 199, 255);
+        }
+
+        .selected {
+            background-color: rgb(213, 168, 255);
+        }
+    </style>
+</head>
+
+<body>
+    <div onclick="changeColor(this)">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam totam voluptas
+        maiores! Molestias,
+        inventore
+        voluptatem delectus ad consectetur temporibus iure.</div>
+    <div onclick="changeColor(this)">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut quas voluptatum
+        consequuntur assumenda maxime sunt
+        magnam, quisquam maiores distinctio dolor?</div>
+    <div onclick="changeColor(this)">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus dolor ex ipsa
+        sequi nobis odit atque,
+        quasi ullam temporibus corrupti.</div>
+
+    <script>
+        function changeColor(sender) {
+            sender.classList.add('selected');
+        }
+    </script>
+</body>
+
+</html>
