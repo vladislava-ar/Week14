@@ -3,5 +3,25 @@
     height: 100vh;
 }
 
+.director-name {
+    font-size: x-large;
+    margin-bottom: 2vh;
+}
 
+.director-career {
+    font-size: large;
+    font-style: italic;
+    color: rgb(49, 29, 29);
+    margin-top: 1vh;
+}
 
+.director-films {
+    color: black;
+    font-style: normal;
+    margin-left: 1vw;
+    text-transform: uppercase;
+}
+
+#topFilms {
+    font-size: larger;
+}
